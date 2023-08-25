@@ -1,0 +1,230 @@
+<!-- Atividade 02 - Marayah -->
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+        width: 350px;
+    }
+
+    thead, tfoot {
+        text-align: center;
+    }
+</style>
+
+<header>
+    <!-- Cabeçalho do site com uma pequena introdução sobre o game dentro de um article -->
+    <article classname="val-info">
+        <h1>Valorant</h1>
+        <p>
+            Riot Games presents VALORANT: a 5v5 character-based tactical FPS 
+            where precise gunplay meets unique agent abilities. 
+            Learn about VALORANT and its stylish cast.
+        </p>
+    </article>
+
+    <!-- Título da página -->
+    <title>Valorant</title>
+</header>
+
+<!-- Lista contendo 3 links dentro de uma section -->
+<body>
+    <section classname="val-links">
+        <ul>
+            <li>
+                <a href="https://playvalorant.com/" target="_blank">
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.hyhsT2zhe4LTpMRqp1i5MQHaHa&pid=Api&P=0&h=180" 
+                         alt="Play Valorant" 
+                         width="100px" />
+                </a>
+            </li>
+            <li>
+                <a href="https://valorantesports.com/" target="_blank">Valorant E-Sports</a>
+            </li>
+            <li>
+                <a href="https://valorant.fandom.com/wiki/VALORANT_Wiki" target="_blank">Valorant Wiki</a>
+            </li>
+        </ul>
+    </section>
+    
+    <!-- Tabela com informações sobre o Valorant dentro de uma section -->
+    <!-- Em negrito estão os meus agentes ou mapas favoritos <3 -->
+    <section classname="val-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Agents</th>
+                    <th>Maps</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Astra</td>
+                    <td><b>Ascent</b></td>
+                </tr>
+                <tr>
+                    <td>Breach</td>
+                    <td><b>Bind</b></td>
+                </tr>
+                <tr>
+                    <td>Brimstone</td>
+                    <td>Breeze</td>
+                </tr>
+                <tr>
+                    <td>Chamber</td>
+                    <td>Fracture</td>
+                </tr>
+                <tr>
+                    <td>Cypher</td>
+                    <td><b>Haven</b></td>
+                </tr>
+                <tr>
+                    <td>Deadlock</td>
+                    <td>Icebox</td>
+                </tr>
+                <tr>
+                    <td>Fade</td>
+                    <td>Lotus</td>
+                </tr>
+                <tr>
+                    <td>Gekko</td>
+                    <td>Pearl</td>
+                </tr>
+                <tr>
+                    <td>Harbor</td>
+                    <td><b>Split</b></td>
+                </tr>
+                <tr>
+                    <td><b>Jett</b></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>KAY/O</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td><b>Killjoy</b></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Neon</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Omen</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Phoenix</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td><b>Raze</b></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Reyna</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td><b>Sage</b></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Skye</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td><b>Sova</b></td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Viper</td>
+                    <td>--</td>
+                </tr>
+                <tr>
+                    <td>Yoru</td>
+                    <td>--</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><b>Number of agents</b></td>
+                    <td><b>22</b></td>
+                </tr>
+                <tr>
+                    <td><b>Number of maps</b></td>
+                    <td><b>9</b></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    <!-- Formulário para o game, solicitando nome, código de acesso, gênero e agentes primários preferidos -->
+    <article classname="val-form">
+        <h2>Join the game now!</h2>
+        <form action="https://www.w3schools.com/action_page.php" method="get">
+            <p>Name: </p>
+            <input type="text" name="name" maxlength="15" required />
+            <br/>
+            <p>Read: </p>
+            <input type="text" name="read" readonly value="Reading field" />
+            <br/>
+            <p>Access code: </p>
+            <input type="number" name="code" min="25000" max="30000" required />
+            <br/>
+            <p>Gender: </p>
+            <section classname="gender">
+                <input type="radio" id="male" name="gender" value="male" />
+                <label for="male">Male</label>
+                <br/>
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Female</label>
+                <br/>
+                <input type="radio" id="no-answer" name="gender" value="no-answer" />
+                <label for="no-answer">I prefer not to answer</label>
+                <br/>
+            </section>
+            <section classname="agents">
+                <p>Select the primary agents that interest you: </p>
+                <input type="checkbox" id="brimstone" name="brimstone" value="brimstone">
+                <label for="brimstone">Brimstone</label>
+                <br/>
+                <input type="checkbox" id="cypher" name="cypher" value="cypher">
+                <label for="cypher">Cypher</label>
+                <br/>
+                <input type="checkbox" id="jett" name="jett" value="jett">
+                <label for="jett">Jett</label>
+                <br/>
+                <input type="checkbox" id="omen" name="omen" value="omen">
+                <label for="omen">Omen</label>
+                <br/>
+                <input type="checkbox" id="phoenix" name="phoenix" value="phoenix">
+                <label for="phoenix">Phoenix</label>
+                <br/>
+                <input type="checkbox" id="raze" name="raze" value="raze">
+                <label for="raze">Raze</label>
+                <br/>
+                <input type="checkbox" id="sage" name="sage" value="sage">
+                <label for="sage">Sage</label>
+                <br/>
+                <input type="checkbox" id="sova" name="sova" value="sova">
+                <label for="sova">Sova</label>
+                <br/>
+                <input type="checkbox" id="viper" name="viper" value="viper">
+                <label for="viper">Viper</label>
+                <br/>
+            </section>
+            <br/>
+            <input type="submit" value="Send" />
+            <br/><br/>
+        </form>
+    </article>
+</body>
+
+<br/>
+
+<footer>
+    <b>
+        Copyright Marayah 2023
+    </b>
+</footer>
