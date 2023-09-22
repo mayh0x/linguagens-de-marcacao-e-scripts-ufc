@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade 04 - Valorant</title>
+  <style>
+    * {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    main {
+      display: flex;
+      flex-direction: row;
+    }
+    .nav-superior {
+      background-color: rgb(182, 140, 240);
+      padding: 30px;
+    }
+    .nav-superior > ul {
+      display: flex;
+      flex-direction: row;
+      gap: 60px;
+    }
+    .nav-superior > ul > button {
+      border-radius: 5px;
+      background-color: rgb(226, 112, 214);
+      padding: 10px 30px;
+      font-weight: bold;
+      width: 150px;
+    }
+    .nav-superior > ul > button:hover {
+      background-color: rgb(187, 98, 178);
+      color: white;
+      cursor: pointer;
+    }
+    .menu-lateral-esquerdo {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(255, 184, 250);
+      width: 300px;
+      align-items: flex-start;
+      gap: 60px;
+      padding: 30px;
+      text-align: center;
+    }
+    .menu-lateral-esquerdo > a {
+      border: 1px solid black;
+      padding: 10px 30px;
+      border-radius: 5px;
+      background-color: rgb(182, 140, 240);
+      text-decoration: none;
+      font-weight: bold;
+      width: 150px;
+    }
+    .menu-lateral-esquerdo > a:hover {
+      background-color: rgb(129, 99, 170);
+      color: white;
+    }
+    .content {
+      width: 1200px;
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 30px;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    .galery {
+      padding: 0 75px;
+    }
+    .galery img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+    .menu-lateral-direito {
+      width: 400px;
+      background-color: rgb(255, 184, 250);
+    }
+    .menu-lateral-direito > article {
+      padding: 50px;
+      text-align: justify;
+    }
+    footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 30px;
+      background-color: rgb(182, 140, 240);
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<header>
+  <nav class="nav-superior">
+    <ul>
+      <button>Home</button>
+      <button>Sobre</button>
+      <button>Historia</button>
+      <button>Links Uteis</button>
+    </ul>
+  </nav>
+</header>
+
+<body>
+  <main>
+    <section class="menu-lateral-esquerdo">
+      <a href="https://valorant.fandom.com/pt-br/wiki/Especial:Carregar_arquivo?wpDestFile=The+Round+-+Valorant+Gameplay+Preview" target="_blank">Gameplay Preview</a>
+      <a href="https://valorant.fandom.com/pt-br/wiki/Especial:Carregar_arquivo?wpDestFile=Project+A+Riot%E2%80%99s+Tactical+FPS+Announcement+Riot+Pls+10th+Anniversary+Edition+-+League+of+Legends" target="_blank">Video de Anuncio</a>
+      <a href="https://valorant.fandom.com/pt-br/wiki/Especial:Carregar_arquivo?wpDestFile=Welcome+to+the+team+Dev+Diaries+-+VALORANT" target="_blank">Time Developer</a>
+      <a href="https://valorant.fandom.com/pt-br/wiki/Especial:Carregar_arquivo?wpDestFile=Closed+Beta+begins+in+EU+NA+VALORANT" target="_blank">Beta Fechado</a>
+    </section>
+  
+    <section class="content">
+      <h1>Valorant</h1>
+      <h2>Galeria</h2>
+      <section class="galery">
+        <img src="https://static.wikia.nocookie.net/valorant/images/5/5c/Gameplay_1.jpeg/revision/latest/scale-to-width-down/185?cb=20201121025130&path-prefix=pt-br" alt="valorant-gameplay" width="150px" height="150px" 
+             style="margin: 16px;" />
+        <img src="https://static.wikia.nocookie.net/valorant/images/c/cf/Gameplay_2.jpeg/revision/latest/scale-to-width-down/185?cb=20201121025305&path-prefix=pt-br" alt="valorant-gameplay" width="150px" height="150px" 
+             style="margin: 16px;" />
+        <img src="https://static.wikia.nocookie.net/valorant/images/a/ac/Gameplay_3.jpeg/revision/latest/scale-to-width-down/185?cb=20201121025329&path-prefix=pt-br" alt="valorant-gameplay" width="150px" height="150px" 
+             style="margin: 16px;" />
+        <img src="https://static.wikia.nocookie.net/valorant/images/1/1e/Gameplay_4.jpeg/revision/latest/scale-to-width-down/185?cb=20201120200043&path-prefix=pt-br" alt="valorant-gameplay" width="150px" height="150px" 
+             style="margin: 16px;" />
+        <img src="https://static.wikia.nocookie.net/valorant/images/8/86/Gameplay_5.jpg/revision/latest/scale-to-width-down/185?cb=20201121025340&path-prefix=pt-br" alt="valorant-gameplay" width="150px" height="150px" 
+             style="margin: 16px;" />
+        <img src="https://static.wikia.nocookie.net/valorant/images/7/7f/Gameplay_6.jpg/revision/latest/scale-to-width-down/185?cb=20201121025352&path-prefix=pt-br" alt="valorant-gameplay" width="150px" height="150px" 
+             style="margin: 16px;" />
+        <img src="https://static.wikia.nocookie.net/valorant/images/d/da/Gameplay_7.jpg/revision/latest/scale-to-width-down/185?cb=20201121025401&path-prefix=pt-br" alt="valorant-gameplay" width="150px" height="150px" 
+             style="margin: 16px;" />
+        <img src="https://static.wikia.nocookie.net/valorant/images/f/f7/Gameplay_8.jpg/revision/latest/scale-to-width-down/185?cb=20201121025413&path-prefix=pt-br" alt="valorant-gameplay" width="150px" height="150px" 
+             style="margin: 16px;" />
+        <img src="https://static.wikia.nocookie.net/valorant/images/b/bd/Phoenix_and_Jett_Promo.jpg/revision/latest/scale-to-width-down/200?cb=20201121025642&path-prefix=pt-br" alt="valorant-gameplay" width="150px" height="150px" 
+             style="margin: 16px;" />
+      </section>
+    </section>
+    
+    <section class="menu-lateral-direito">
+      <article>
+        <h1>Sobre o jogo</h1>
+        <br/>
+        <p>
+          Valorant é um jogo de tiro tático em primeira pessoa grátis para jogar, 
+          sendo desenvolvido e publicado pela a Riot Games. O jogo atualmente roda na 
+          Unreal Engine 4.
+        </p>
+        <br/>
+        <p> 
+          O jogo foi anunciado no dia 15 de outubro de 2019, com o codenome "Project A", 
+          até que foi oficialmente revelado como Valorant em 2 de março de 2020. O jogo 
+          foi oficialmente lançado em 2 de junho de 2020 para PC.
+        </p>
+        <br/>
+        <p>
+          Quando o Valorant teve seu primeiro aniversário, o jogo tinha 14 milhões de jogadores 
+          ativos mensalmente e a Riot anunciou que em breve o jogo iria vir para plataformas mobile, 
+          com plataformas console também sendo exploradas mas não com uma prioridade alta. Não há 
+          planos para possibilitar o jogo entre PC e mobile.
+        </p>
+        <br/>
+        <h1>História</h1>
+        <br />
+        <p>
+          Valorant se passa em uma versão da Terra em um futuro próximo seguinte de um evento chamado 
+          de First Light. Esse evento abrange todo o globo, Fazendo que aconteça grandes transformações 
+          para a vida, tecnologia, e como o governo exerce. porém, pessoas selecionadas de todo o globo 
+          começam a ganhar habilidades vindo desse grande evento. Esses no qual ganharam as habilidades 
+          são chamados de radiantes.
+        </p>
+        <br/>
+        <p>
+          Como resposta a First Light, uma organização obscura funda o Protocolo Valorant, que junta 
+          os agentes do mundo todo. Estes agentes consistem de Radiantes e outros indivíduos equipados 
+          com tecnologia Radiante. Por conta do passado destes personagens, o time Valorant tem dinâmicas 
+          interessantes, já que os indivíduos as vezes não só já se conhecem, como eles vem de um grande 
+          espectro de passados sendo de crimes até serviços militares.
+        </p>
+      </article>
+    </section>
+  </main>
+</body>
+
+<footer>
+  <p>© 2023 Valorant - Todos os direitos reservados.</p>
+  <p>&lt/&gt Desenvolvido por Marayah Sabelle</p>
+</footer>
+
+</html>
